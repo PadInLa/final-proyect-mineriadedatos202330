@@ -23,6 +23,10 @@ The queries used were:
 
 https://lookerstudio.google.com/s/mocsgfkG8dQ
 
+## Colab Notebook
+
+https://colab.research.google.com/drive/1nKdMR7PFlaZO1Z_37bhcAJtgNFIIKFDG?usp=sharing
+
 ## How to run:
 
 Try running the following commands:
