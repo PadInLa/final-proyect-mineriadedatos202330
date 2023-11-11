@@ -1,0 +1,10 @@
+sources:
+  - name: FamiliasEnAccion
+    database: proyectomineria202330
+    tables:
+      - name: Beneficiarios
+        description: "Beneficiarios table"
+      - name: BeneficiariosTitulares
+        description: "BeneficiariosTitulares table"
+      - name: BeneficiariosProcesados
+        description: "BeneficiariosProcesados table"
