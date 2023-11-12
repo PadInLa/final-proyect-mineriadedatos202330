@@ -6,7 +6,7 @@ SELECT
   IF(Discapacidad = "ND", "NO", Discapacidad) AS Discapacidad,
   IF(Etnia = "ND", "NINGUNO", Etnia) AS Etnia,
   IF(NivelEscolaridad = "ND", "NINGUNO", NivelEscolaridad) AS NivelEscolaridad,
-  Genero,
+  IF(Genero = "ND", NULL, Genero) AS Genero,
   IF(TipoPoblacion = "ND", "NINGUNO", TipoPoblacion) AS TipoPoblacion,
   CantidadDeBeneficiarios,
   CASE
@@ -18,3 +18,4 @@ SELECT
     WHEN RangoEdad = ">65" THEN 70
   END AS RangoEdad
 FROM {{ source("FamiliasEnAccion","BeneficiariosTitulares") }}
+WHERE Genero IS NOT NULL
