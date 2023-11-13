@@ -27,6 +27,14 @@ https://lookerstudio.google.com/s/mocsgfkG8dQ
 
 https://colab.research.google.com/drive/1nKdMR7PFlaZO1Z_37bhcAJtgNFIIKFDG?usp=sharing
 
+## API Repo
+
+https://github.com/PadInLa/api-final-proyect-mineria202330
+
+## API link
+
+https://api-pf-mineriadedatos2023.onrender.com/graphql
+
 ## How to run:
 
 Try running the following commands:
